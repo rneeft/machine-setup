@@ -30,4 +30,13 @@ dotnet --info
 
 Install visualstudio code from here: https://code.visualstudio.com/
 
-## Install 
+## Install Gnome extension manager
+
+```bash
+sudo apt install gnome-shell-extension-manager
+```
+I'm using the following extensions:
+- Blur my shell
+- Vitals
+- GSConnect
+- Dash to dock
