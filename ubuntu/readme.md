@@ -40,3 +40,13 @@ I'm using the following extensions:
 - Vitals
 - GSConnect
 - Dash to dock
+
+## Software
+
+```bash
+sudo snap install spotify
+sudo snap install rider --classic
+```
+
+[Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+[VSCode](https://code.visualstudio.com/docs/setup/linux)
