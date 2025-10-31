@@ -98,15 +98,33 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 dotnet --info
 ```
 
+## VMWare Workstation pro
+
+- Download VMWare from the website
+```bash
+tar -cf vmmon.tar vmmon-only
+``` 
+```bash
+tar -cf vmnet.tar vmnet-only
+``` 
+```bash
+sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
+``` 
+```bash
+sudo vmware-modconfig --console --install-all
+```
+
 ## Software
 
 ```bash
 sudo snap install brave
 sudo snap install spotify
 sudo snap install rider --classic
+sudo snap install code --classic
+sudo snap install datagrip --classic
+sudo snap install clion --classic
 sudo snap install onlyoffice-desktopeditors
 ```
 
 [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
-[VSCode](https://code.visualstudio.com/docs/setup/linux)
