@@ -106,7 +106,7 @@ tar -cf vmmon.tar vmmon-only
 ``` 
 ```bash
 tar -cf vmnet.tar vmnet-only
-``` 
+```
 ```bash
 sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/
 ``` 
@@ -124,6 +124,7 @@ sudo snap install code --classic
 sudo snap install datagrip --classic
 sudo snap install clion --classic
 sudo snap install onlyoffice-desktopeditors
+sudo snap install KolourPaint
 ```
 
 [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
